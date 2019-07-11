@@ -29,14 +29,15 @@ def prime(num):
         if flag==0:
             count=count+1
             if count == num:
-                print(i)
+                #print(i)
+                return i
                 break
 
 n=int(input("Enter n value"))
 if n%2==0:
     
     res=prime((n//2))
-    #print(res)
+    print(res)
 else:
     if n==1 or n==3:
         print(1)
